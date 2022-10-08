@@ -1,0 +1,22 @@
+IMPLEMENTATION OF DECISION TREE LEARNING ALGORITHM AND CHI SQUARE PRUNING TECHNIQUE
+
+Language used : Python
+Interpreter : Python 3.8.8
+
+The file ‘Source.py’ contains the source code for the program which implements decision tree learning algorithm and pruning technique.
+
+The program accepts an input file named 'restaurant.csv' containing the dataset. The dataset contains 12 examples each of which have 10 attributes and a final outcome. 
+
+Please run the file 'Source.py' with the dataset file in the same folder.
+
+Upon running the file, the output displays the decision tree before pruning. Later, the program also outputs the chi square vales for the nodes and the tree after pruning.
+
+Each node is represented by |xxx| and the branch is represented by xxx : yyy, where xxx is the attribute and yyy is a value of the attribute.
+
+Example : 
+
+------ | Patrons | 
+----------- Patrons : Full
+---------------- | Hungry | 
+--------------------- Hungry : No
+--------------------------  Will Wait ? No 
